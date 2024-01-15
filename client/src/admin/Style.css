@@ -1,0 +1,54 @@
+/* Overall container styling */
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 100px;
+    margin-left: 500px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Inner container styling */
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /* Input styling */
+  .input {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 50%;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+  }
+  
+  /* Textarea styling */
+  textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .Button {
+    margin-top: 10px;
+  }
+  
+  /* Secondary button styling */
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }

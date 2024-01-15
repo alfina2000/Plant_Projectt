@@ -1,0 +1,41 @@
+/* staff.css */
+
+.staff-container {
+    display: flex;
+  }
+  
+  .sidebar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%; /* Set sidebar height to 100% */
+    padding: 20px;
+    background-color: green; /* Set background color for the sidebar if needed */
+  }
+  
+  .green-box {
+    height: 100%;
+    flex: 1; /* Take up full height of the sidebar */
+    background-color: rgb(179, 193, 179); /* Green background color for the box */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .link-text-field {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #ffffff; /* White text color */
+    background-color:green; /* Green button color */
+    cursor: pointer;
+  }
+  
+  .link-text-field:hover {
+    background-color: #008000; /* Darker green on hover */
+  }
+  

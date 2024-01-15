@@ -1,0 +1,31 @@
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+    border-radius: 15px;
+    width: 250px;
+    height: 400px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product img {
+    width: 350px;
+  }
+  
+  .product .description {
+    text-align: center;
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }

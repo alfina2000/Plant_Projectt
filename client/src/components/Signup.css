@@ -1,0 +1,62 @@
+.signup{
+  background-color: #ccc;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.head{ 
+    text-align: center;
+}
+.label{
+    display: block;
+    margin-top: 10px;
+}
+.input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #45a049;
+  }
+.Login{
+  background-color: rgba(21, 41, 2, 0.564);
+  max-width:400px;
+  margin: 100px;
+  margin-left: 550px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login{
+    background-color: #ccc;
+    max-width:400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .sign{
+    background-color: rgba(22, 58, 5, 0.568);
+    max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
